@@ -10,7 +10,7 @@
 +   "tittle" : "Gosta de NodeJS?",
 +   "options" : ["SIM", "NÃO", "PRA CARAMBA!"]
 + }
-+ retorna a pollId (id da enquete)
++ retorna a poLLId (id da enquete)
 ## Obter informações de uma enquete - Get: [http://localhost:3333/polls/:pollId]() 
 + 'pollId': é o id da enquete qual deseja obter as informações
 + retorna todas as informações da enquete (id, titulo, opções de votação)
