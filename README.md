@@ -3,6 +3,7 @@
 + É possivel criar uma enquete, votar em uma enquete (com filtros de voto (apenas um voto por usuario, utilizando cookies)) ver em tempo real as votações da enquete.
 + estou usando para a criação desta API: NodeJS, Prisma, Zod, Fastify, PostgresSQL, Regis (ioRedis), Fastify/Websockets, Fastify/Cookies.
 + O sistema não possui interface, então é necessario um API tester como o postman!
++ Não esquece de dar um ```` npm install ```` no console antes de tentar rodar o projeto!
 # Rotas: (Levando em conta que você está em localhost)
 ## Criação de enquetes - Post: [http://localhost:3333/polls]()
 + Exemplo de body raw/JSON do POST:
