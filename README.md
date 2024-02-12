@@ -19,7 +19,6 @@
 ## Votar em uma opção de uma enquete - POST: [http://localhost:3333/polls/:pollId/votes]()
 + 'pollId': é o id da enquete qual deseja realizar uma votação
 + Exemplo de body raw/JSON do POST:
-+ 
 ````
   {
     "pollOptionId" : ":optionId",
