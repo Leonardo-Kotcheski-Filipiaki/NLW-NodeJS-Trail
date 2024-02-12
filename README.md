@@ -19,10 +19,13 @@
 ## Votar em uma opção de uma enquete - POST: [http://localhost:3333/polls/:pollId/votes]()
 + 'pollId': é o id da enquete qual deseja realizar uma votação
 + Exemplo de body raw/JSON do POST:
-+ {
-+   "pollOptionId" : ":optionId",
-+ }
-+ 'optionId' é o id da opção que deseja votar, pode ser obtido ao obter informações de uma enquete!
++ 
+````
+  {
+    "pollOptionId" : ":optionId",
+  }
+````
+ 'optionId' é o id da opção que deseja votar, pode ser obtido ao obter informações de uma enquete!
 # real-time voting (Postman)
 + Crie uma requisição websocket e se conecte com o link - [ws://localhost:3333/poll/:pollId/results]()
 + 'pollId': é o id da enquete qual deseja obter os votos em real-time
