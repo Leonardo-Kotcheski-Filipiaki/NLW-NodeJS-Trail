@@ -6,10 +6,12 @@
 # Rotas: (Levando em conta que você está em localhost)
 ## Criação de enquetes - Post: [http://localhost:3333/polls]()
 + Exemplo de body raw/JSON do POST:
-+ {
-+   "tittle" : "Gosta de NodeJS?",
-+   "options" : ["SIM", "NÃO", "PRA CARAMBA!"]
-+ }
+  ````
+  {
+    "tittle" : "Gosta de NodeJS?",
+    "options" : ["SIM", "NÃO", "PRA CARAMBA!"]
+  }
+  ````
 + retorna a poll Id (id da enquete)
 ## Obter informações de uma enquete - Get: [http://localhost:3333/polls/:pollId]() 
 + 'pollId': é o id da enquete qual deseja obter as informações
