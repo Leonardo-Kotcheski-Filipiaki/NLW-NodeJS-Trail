@@ -1,9 +1,10 @@
 # NLW Node JS Trail
 + Criação de uma API de enquetes
 + É possivel criar uma enquete, votar em uma enquete (com filtros de voto (apenas um voto por usuario, utilizando cookies)) ver em tempo real as votações da enquete.
-+ estou usando para a criação desta API: NodeJS, Prisma, Zod, Fastify, PostgresSQL, Regis (ioRedis), Fastify/Websockets, Fastify/Cookies.
++ estou usando para a criação desta API: NodeJS, Prisma, Zod, Fastify, PostgresSQL, Regis (ioRedis), Fastify/Websockets, Fastify/Cookies e o Docker.
 + O sistema não possui interface, então é necessario um API tester como o postman!
 + Não esquece de dar um ```` npm install ```` no console antes de tentar testar a API!
++ Também entre na pasta "src/config/" e uso o comando  ```` docker compose up -d ```` para rodar as configurações do docker!
 # Rotas: (Levando em conta que você está em localhost)
 ## Criação de enquetes - Post: [http://localhost:3333/polls]()
 + Exemplo de body raw/JSON do POST:
