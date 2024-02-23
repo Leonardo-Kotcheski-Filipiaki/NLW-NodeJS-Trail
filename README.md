@@ -3,6 +3,7 @@
 + É possivel criar uma enquete, votar em uma enquete (com filtros de voto (apenas um voto por usuario, utilizando cookies)) ver em tempo real as votações da enquete.
 + estou usando para a criação desta API: NodeJS, Prisma, Zod, Fastify, PostgresSQL, Regis (ioRedis), Fastify/Websockets, Fastify/Cookies e o Docker.
 + O sistema não possui interface, então é necessario um API tester como o postman!
++ NPM version >= 10.2.4 | Node version >= 20.11.1
 + Não esquece de dar um ```` npm install ```` no console antes de tentar testar a API!
 + Também entre na pasta "src/config/" e uso o comando  ```` docker compose up -d ```` para rodar as configurações do docker!
 # Rotas: (Levando em conta que você está em localhost)
